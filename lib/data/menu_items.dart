@@ -1,4 +1,5 @@
 final List<Map<String, String>> menuItems = [
+  // 🍫 Martabak Section
   {
     'name': 'Martabak Coklat',
     'desc': 'Dengan topping coklat meleleh',
@@ -9,18 +10,68 @@ final List<Map<String, String>> menuItems = [
   },
   {
     'name': 'Martabak Keju',
-    'desc': 'Topping keju melimpah',
+    'desc': 'Topping keju melimpah dan lembut',
     'price': 'Rp 27.000',
     'image': 'assets/martabak_keju.png',
     'rating': '4.7',
     'category': 'Martabak',
   },
   {
+    'name': 'Martabak Coklat Keju',
+    'desc': 'Kombinasi lezat coklat dan keju',
+    'price': 'Rp 30.000',
+    'image': 'assets/martabak_coklat_keju.png',
+    'rating': '4.9',
+    'category': 'Martabak',
+  },
+  {
+    'name': 'Martabak Kacang',
+    'desc': 'Martabak klasik dengan taburan kacang gurih',
+    'price': 'Rp 24.000',
+    'image': 'assets/martabak_kacang.png',
+    'rating': '4.5',
+    'category': 'Martabak',
+  },
+  {
+    'name': 'Martabak Tiramisu',
+    'desc': 'Rasa modern dengan aroma kopi tiramisu',
+    'price': 'Rp 32.000',
+    'image': 'assets/martabak_tiramisu.png',
+    'rating': '4.6',
+    'category': 'Martabak',
+  },
+
+  // 🧋 Minuman Section
+  {
     'name': 'Es Teh Manis',
     'desc': 'Minuman segar dingin',
     'price': 'Rp 5.000',
     'image': 'assets/es_teh.png',
     'rating': '4.3',
+    'category': 'Minuman',
+  },
+  {
+    'name': 'Teh Tarik',
+    'desc': 'Rasa manis dan creamy khas teh tarik',
+    'price': 'Rp 8.000',
+    'image': 'assets/teh_tarik.png',
+    'rating': '4.4',
+    'category': 'Minuman',
+  },
+  {
+    'name': 'Susu Kocok',
+    'desc': 'Susu segar dikocok lembut dan manis',
+    'price': 'Rp 10.000',
+    'image': 'assets/susu_kocok.png',
+    'rating': '4.5',
+    'category': 'Minuman',
+  },
+  {
+    'name': 'Jeruk Nipis Dingin',
+    'desc': 'Asam segar menyegarkan tenggorokan',
+    'price': 'Rp 9.000',
+    'image': 'assets/jeruk_nipis.png',
+    'rating': '4.2',
     'category': 'Minuman',
   },
 ];
